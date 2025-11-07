@@ -51,5 +51,5 @@ if Velocidade > 120:
     print("Excesso de velocidade")
 elif Velocidade == 20: 
     print('No limite Máximo')
-elif Velocidade < 120:
+else:
     print("A velocidade é:", Velocidade)
