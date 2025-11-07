@@ -1,0 +1,1 @@
+Estou a Aprender Python no primeiro ano da minha licenciatura, e estou a guardar tudo aqui.
