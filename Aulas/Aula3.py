@@ -19,12 +19,11 @@ print(f"Max Verstappen precisa de vencer {provas_restantes} provas para ultrapas
 
 soma = 0
 contador = 0
+numero = float(input("Digite um numero positivo: "))
 
-while True:
-    numero = int(input("Digite um numero positivo: "))
-    if numero < 0:
-        break
-    soma += numero
+while numero >= 0:
+    if numero >= 0:
+        soma += numero
     contador += 1
 
 if contador > 0:
@@ -56,5 +55,21 @@ print(f"O total somado é: {soma}")
 print(f"Foram lidos {contador} números.")
 
 
+#exercicio 5
+#Escreva um programa que leia vários números positivos introduzidos pelo utilizador e calcule a média deles.
+#O programa deve terminar quando o utilizador digitar um número negativo, com while true
+
+while True:
+    numero = float(input("Digite um numero positivo: "))
+    if numero < 0:
+        break
+    soma += numero
+    contador += 1
+
+if contador != 0:
+    print(f"A média dos números é: {soma / contador}")
+else:
+    print("Nenhum número positivo foi introduzido.")
 
 
+    
