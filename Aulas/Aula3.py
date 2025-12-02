@@ -100,7 +100,6 @@
 
 for i in range(2, 21, 2):
     print(i)
-
 #Peça um numero ao utilizador e mostre uma cpntagem regressiva até 0, com um for descrescente
 #nota:assegure que funcione sempre
 
